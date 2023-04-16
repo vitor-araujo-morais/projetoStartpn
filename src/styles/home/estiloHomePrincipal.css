@@ -1,0 +1,113 @@
+.principal{
+    height: 100%;
+}
+
+.principalPT1{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    align-items: center;
+}
+
+
+.titleConta{
+    font-size: 30px;
+    color: #476EE6;
+    font-family: Poppins-Bold;
+}
+
+.principalPT2{
+    display: flex;
+    margin-top: 57px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.pesquisar{
+    
+    border-radius: 60px;
+
+    height: 40px;
+    width: 330px;
+    border-color: #D7D7D7;
+    color:  #7D7D7D;
+    align-content: center;
+    text-align: center;
+}
+
+.layoutsMobile{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.displayMobile{
+    display: none;
+}
+
+@media(max-width: 900px){
+    .principalPT1{
+        display: none;
+    }
+    .principalPT2{
+        display:none
+    }
+    .displayMobile {
+        display: block
+    } ;
+    .pesquisar{
+        display: none;
+    }
+    .elimina{
+        display: none;
+    }
+}
+
+@media(max-width: 900px){
+    .pesquisar{
+        display: none;
+    }
+}
+
+.CCeDigito {
+    display: flex;
+    column-gap: 10px;
+   
+}
+
+.b-1{
+    width: 100%;
+    flex-grow: 1;
+}
+
+.selectBancos{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D7D7D7;
+    color: #c4c4c4;
+}
+
+.configUsuarioDesktop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 234.43px;
+    height: 54.23px;
+    border: 1px solid #D8D8D8;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+
+}
+
+.elementoImagem{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color:#7D7D7D;
+    align-items: center;
+    justify-content: center;
+}

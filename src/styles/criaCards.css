@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+  
+
+}
+
+.row, .col {
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>404 - Page Not Found</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    const url = new URL(window.location.href);
+    const redirectUrl = url.pathname === '/404.html' ? '/' : url.pathname;
+    window.location.replace(redirectUrl);
+  </script>
+</body>
+</html>

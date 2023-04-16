@@ -1,0 +1,43 @@
+.imgLogoLateral{
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+.imgLogoLateral > img{
+    width: 153px;
+height: 38.27px;
+}
+
+
+.elementos{
+    display: flex;
+background-color: #FFFFFF;
+border-radius: 8px;
+text-align: center;
+align-items: center;
+padding: 10px;
+margin: 5px;
+width: 90%;
+cursor: pointer;
+color: #787486;
+}
+
+.elementos:hover{
+    background-color: #F7F9FB;
+}
+
+.elementos > img{
+    margin-right: 10px;
+}
+
+#sairLateral{
+    margin-top:50%; 
+}
+
+.conteudoLateral{
+    width: 230px;
+    height: 100vh;
+    
+}
+

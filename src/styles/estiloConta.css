@@ -1,0 +1,125 @@
+
+.conteudo-pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+.conteudo{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Comfortaa;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url('../fonts/Comfortaa-Bold.ttf');    
+}
+
+@font-face {
+    font-family: Comfortaa-Regular;
+    src: url('../fonts/Comfortaa-Regular.ttf');    
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+.title{
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: Comfortaa;
+    color: #476EE6;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.inputConta{
+    border-radius: 10px;
+    color: #636363;
+    border-color: #D7D7D7;
+    width: 100%;
+    
+}
+
+.image{
+    width: 250px;
+    display: block;
+}
+
+.termos{
+    color: #476EE6;
+    cursor: pointer;
+}
+
+.formularioCadastro{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 10px;
+}
+
+.inputCadastro{
+    display: block;
+    margin: 10px;
+    max-width: 800px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+
+@media (min-width: 600px){
+    .formularioCadastro{display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px;
+
+    }
+}
+
+
+
+@media(max-width: 500px){
+    .formularioCadastro{
+        display: block;
+    }
+}
+
+
+.termosdeuso{
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.login{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botaocadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.termosdeuso > span{
+    font-family: Comfortaa-Regular;
+ }
+
+ .interage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin-top: 10px;
+flex-wrap: wrap;
+text-align: center;
+}

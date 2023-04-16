@@ -1,0 +1,27 @@
+.steveJobs{
+    height: 100vh;
+}
+
+.paginas{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #F7F9FB;
+    font-family: Poppins-Regular;
+
+}
+.formulario{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+@media(max-width: 1000px){
+    .steveJobs{
+        display: none;
+    }
+}
