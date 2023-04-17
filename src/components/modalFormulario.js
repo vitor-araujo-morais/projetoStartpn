@@ -42,6 +42,9 @@ function App (props){
 
     return(
         <>
+
+<div>{conteudo}</div>
+
         <section className={props.pai}>
           <div className='elimina'>
         <input placeholder="Pesquisar" className={props.layout}></input> 
@@ -50,7 +53,7 @@ function App (props){
        
         </section>
     
-        <div>{conteudo}</div>
+        
         
     
 

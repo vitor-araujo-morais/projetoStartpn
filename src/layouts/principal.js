@@ -29,8 +29,6 @@ function App() {
 
     return (
 
-        <div className="principal">
-
             <div className="conteudoHome">
 
                 <header className="principalPT1">
@@ -62,9 +60,6 @@ function App() {
 
                 <div className="displayMobile"><ModalFormulario estilo="botaoMobile" conteudo="+" pai="" layout="pesquisar" /></div>
 
-
-
-            </div>
         </div>
 
     )

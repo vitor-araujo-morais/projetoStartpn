@@ -1,6 +1,4 @@
-.principal{
-    height: 100%;
-}
+
 
 .principalPT1{
 
@@ -56,8 +54,8 @@
         display:none
     }
     .displayMobile {
-        display: block
-    } ;
+        display: block;
+    }
     .pesquisar{
         display: none;
     }
